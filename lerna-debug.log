@@ -1,0 +1,24 @@
+lerna(info)    Lerna v2.0.0-beta.30
+lerna(debug)   Attempting running PublishCommand.initialize
+lerna(info)    Current version: 0.0.1
+lerna(info)    Checking for updated packages...
+lerna(info)    
+lerna(info)    Changes:
+lerna(info)    - local-button: 0.0.1 => 0.0.2
+lerna(info)    
+lerna(debug)   Successfully ran PublishCommand.initialize
+lerna(debug)   Attempting running PublishCommand.execute
+lerna(error)   Errored while running PublishCommand.execute
+    Error: Command failed: git tag v0.0.2
+    fatal: tag 'v0.0.2' already exists
+    
+        at checkExecSyncError (child_process.js:475:13)
+        at Object.execSync (child_process.js:515:13)
+        at Function.execSync (/home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/ChildProcessUtilities.js:69:40)
+        at Function.addTag (/home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/GitUtilities.js:86:39)
+        at PublishCommand.gitCommitAndTagVersion (/home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/commands/PublishCommand.js:403:30)
+        at PublishCommand.commitAndTagUpdates (/home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/commands/PublishCommand.js:377:29)
+        at PublishCommand.execute (/home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/commands/PublishCommand.js:144:16)
+        at PublishCommand._attempt (/home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/Command.js:161:21)
+        at /home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/Command.js:146:15
+        at /home/greyd/.nvm/versions/node/v6.3.0/lib/node_modules/lerna/lib/Command.js:170:13
