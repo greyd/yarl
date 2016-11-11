@@ -1,5 +1,8 @@
 {
   "name": "button",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "version": "0.0.1",
   "description": "",
   "main": "index.jsx",
