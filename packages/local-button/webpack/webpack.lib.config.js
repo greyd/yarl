@@ -21,7 +21,7 @@ export default {
     entry: getEntry('./src/lib', '.js'),
 
     output: {
-        path: './lib',
+        path: './dist/lib',
         filename: options.optimizeMinimize ? '[name].min.js' : '[name].js',
         library: 'LocalButton',
         libraryTarget: 'umd',
