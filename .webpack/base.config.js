@@ -22,7 +22,7 @@ const baseConfig = {
     externals: undefined,
 
     resolve: {
-        extensions: ["", ".webpack-loader.js", ".web-loader.js", ".loader.js", ".js", '.css'],
+        extensions: ["", "..webpack-loader.js", ".web-loader.js", ".loader.js", ".js", '.css'],
     },
 
     module: {

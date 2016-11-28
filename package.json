@@ -1,6 +1,6 @@
 {
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "registry": "http://testregistry.109.io/"
   },
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.3.0",
