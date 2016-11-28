@@ -9,5 +9,6 @@ Link.propTypes = {
     onClick: React.PropTypes.func,
     children: React.PropTypes.any
 };
+Link.displayName = 'Link';
 
 export default Link

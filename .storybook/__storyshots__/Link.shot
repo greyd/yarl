@@ -1,0 +1,8 @@
+exports[`with text`] = `
+<a
+  className="local-button"
+  href="https://github.com/greyd/yarl"
+  onClick={[Function]}>
+  Hello Button
+</a>
+`;

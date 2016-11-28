@@ -6,7 +6,7 @@ import { Link } from '../packages/local-button/src';
 let stories = storiesOf('Link', module);
 stories.addDecorator(withKnobs);
 stories
-    .addWithInfo('with text', () => (
+    .add('with text', () => (
         <Link href={text('href', 'https://github.com/greyd/yarl')} onClick={action('clicked')}>
             {text('Button Text', 'Hello Button')}
         </Link>

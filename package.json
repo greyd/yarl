@@ -6,6 +6,7 @@
     "@kadira/react-storybook-addon-info": "^3.3.0",
     "@kadira/storybook": "^2.21.0",
     "@kadira/storybook-addon-knobs": "^1.7.0",
+    "@kadira/storyshots": "^2.1.0",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
@@ -31,6 +32,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 9000",
+    "test": "storyshots",
     "build-storybook": "build-storybook -o ./build/storybook/"
   },
   "dependencies": {
