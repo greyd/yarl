@@ -3,10 +3,12 @@
   "publishConfig": {
     "registry": "http://localhost:4873/"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "./dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack && npm run build-lib",
     "build-lib": "../../node_modules/.bin/babel ./src/lib/ -d dist/lib/",
