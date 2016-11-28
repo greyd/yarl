@@ -11,4 +11,4 @@ Link.propTypes = {
 };
 Link.displayName = 'Link';
 
-export default Link
+export default Link;
