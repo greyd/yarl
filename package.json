@@ -3,7 +3,10 @@
     "registry": "http://localhost:4873/"
   },
   "devDependencies": {
-    "babel-cli": "^6.11.4",
+    "@kadira/react-storybook-addon-info": "^3.3.0",
+    "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addon-knobs": "^1.7.0",
+    "babel-cli": "^6.18.0",
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.5",
@@ -25,5 +28,13 @@
     "less-loader": "^2.2.3",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9000",
+    "build-storybook": "build-storybook -o ./build/storybook/"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
   }
 }

@@ -1,4 +1,6 @@
 .local-button {
-    background: #333;
-    color: #f00;
+    background: #ccc;
+    border-radius: 5px;
+    color: #333;
+    padding: 5px;
 }

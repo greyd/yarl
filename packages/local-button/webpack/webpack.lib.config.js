@@ -13,8 +13,6 @@ const getEntry = (folder, extension) => {
         }, {})
 };
 
-//console.log(getEntry('./src/lib', '.js'));
-
 export default {
     ...baseConfig,
 
@@ -23,8 +21,8 @@ export default {
     output: {
         path: './dist/lib',
         filename: options.optimizeMinimize ? '[name].min.js' : '[name].js',
-        library: 'LocalButton',
         libraryTarget: 'umd',
+        umdNamedDefine: true
     },
 
     externals: [ 'react', 'react-dom' ],

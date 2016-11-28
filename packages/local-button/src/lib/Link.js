@@ -1,5 +1,13 @@
 import React from 'react';
 
-export default ({href, children}) => (
-    <a href={href} className="local-button">{children}</a>
-)
+const Link = ({href, onClick, children}) => (
+    <a href={href} onClick={onClick} className="local-button">{children}</a>
+);
+
+Link.propTypes = {
+    href: React.PropTypes.string.isRequired,
+    onClick: React.PropTypes.func,
+    children: React.PropTypes.any
+};
+
+export default Link
