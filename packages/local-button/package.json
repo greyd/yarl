@@ -1,9 +1,9 @@
 {
   "name": "local-button",
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "registry": "http://testregistry.109.io/"
   },
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "",
   "main": "./dist/index.js",
   "files": [
