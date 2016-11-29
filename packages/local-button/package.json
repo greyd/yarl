@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "http://testregistry.109.io/"
   },
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "",
   "main": "./dist/index.js",
   "files": [
