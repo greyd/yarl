@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "http://localhost:8081/repository/npmjs-all/"
   },
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "",
   "main": "./dist/index.js",
   "files": [
