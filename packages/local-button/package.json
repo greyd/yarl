@@ -1,8 +1,8 @@
 {
   "name": "local-button",
-  "version": "0.1.35",
+  "version": "0.1.36",
   "publishConfig": {
-    "registry": "http://localhost:8081/repository/npmjs-internal/"
+    "registry": "http://localhost:8081/repository/npmjs-all/"
   },
   "description": "",
   "main": "./dist/index.js",
