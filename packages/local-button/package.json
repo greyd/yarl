@@ -1,9 +1,9 @@
 {
   "name": "local-button",
   "publishConfig": {
-    "registry": "http://testregistry.109.io/"
+    "registry": "http://localhost:8081/repository/npmjs-all/"
   },
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "",
   "main": "./dist/index.js",
   "files": [
