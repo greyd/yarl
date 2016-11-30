@@ -1,6 +1,6 @@
 {
-  "name": "local-button",
-  "version": "0.1.46",
+  "name": "@ccc/local-button",
+  "version": "0.1.47",
   "description": "",
   "main": "./dist/index.js",
   "files": [
