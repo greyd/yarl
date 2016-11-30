@@ -1,6 +1,6 @@
 {
   "name": "@ccc/local-button",
-  "version": "0.1.48",
+  "version": "0.1.49",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
   },
