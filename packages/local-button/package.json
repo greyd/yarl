@@ -3,12 +3,6 @@
   "version": "0.1.58",
   "description": "",
   "main": "./dist/index.js",
-  "files": [
-    "dist"
-  ],
-  "directories": {
-    "lib": "dist/lib"
-  },
   "scripts": {
     "build": "webpack && npm run build-lib",
     "build-lib": "../../node_modules/.bin/babel ./src/lib/ -d dist/lib/",

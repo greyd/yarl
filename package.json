@@ -35,6 +35,7 @@
   "scripts": {
     "storybook": "start-storybook -p 9000",
     "test": "storyshots",
+    "build": "lerna run build",
     "build-storybook": "build-storybook -o ./build/storybook/"
   },
   "dependencies": {
