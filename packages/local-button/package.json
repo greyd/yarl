@@ -1,6 +1,6 @@
 {
   "name": "local-button",
-  "version": "0.1.39",
+  "version": "0.1.40",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-local"
   },
