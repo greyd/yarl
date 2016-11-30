@@ -252,7 +252,7 @@ This project setup uses [Webpack](https://webpack.github.io/) for handling all a
 
 ```js
 import React, { Component } from 'react';
-import './Button.css'; // Tell Webpack that Button.js uses these styles
+import './Button.css'; Text.js
 
 class Button extends Component {
   render() {
