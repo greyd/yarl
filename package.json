@@ -1,6 +1,8 @@
 {
-  "publishConfig": {
-    "registry": "http://testregistry.109.io/"
+  "name": "yarl",
+  "version": "0.0.1",
+  "publishConfig" : {
+    "registry" : "http://localhost:8081/repository/npmjs-internal/"
   },
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.3.0",

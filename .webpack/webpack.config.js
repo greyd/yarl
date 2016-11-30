@@ -10,8 +10,8 @@ export default {
     output: {
         path: './dist',
         filename: options.optimizeMinimize ? '[name].min.js' : '[name].js',
-        library: 'LocalButton',
         libraryTarget: 'umd',
+        umdNamedDefine: true
     },
 
     externals: [ 'react', 'react-dom' ],

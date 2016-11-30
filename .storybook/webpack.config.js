@@ -10,13 +10,16 @@ const jsLoader = 'babel?cacheDirectory';
 const cssLoader = 'style-loader!css-loader';
 
 module.exports = {
-  plugins: [
-    // your custom plugins
-  ],
+    plugins: [
+        // your custom plugins
+    ],
+    resolve: {
+        extensions: [ "", "..webpack-loader.js", ".web-loader.js", ".loader.js", ".js", '.css' ],
+    },
     module: {
         loaders: [
             { test: /\.js/, loader: jsLoader, exclude: /node_modules/ },
-            { test: /\.css$/, loader: cssLoader, exclude: /node_modules/ }
+            { test: /\.css$/, loader: cssLoader }
         ]
     },
 };
