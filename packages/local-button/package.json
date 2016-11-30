@@ -16,7 +16,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^15.3.2"
   }
 }
