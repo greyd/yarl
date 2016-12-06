@@ -1,6 +1,6 @@
 {
   "name": "@POC/local-text",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
   },
