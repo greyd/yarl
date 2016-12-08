@@ -1,8 +1,9 @@
 import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
 import { withKnobs, text, boolean, number } from '@kadira/storybook-addon-knobs';
-//import { Link } from '../packages/local-button/src';
-import { Link } from 'local-button';
+
+import { Link } from '../packages/local-button/src';
+//import { Link } from 'local-button/dist/lib/Link';
 require('local-button/dist/style');
 
 let stories = storiesOf('Link', module);

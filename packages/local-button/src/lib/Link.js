@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
+import { testLocal } from '../style';
 
-const Link = ({href, onClick, children}) => (
-    <a href={href} onClick={onClick} className="local-button">{children}</a>
+
+export const Link = ({href, onClick, children}) => (
+    <a href={href} onClick={onClick} className={ testLocal }>{children}</a>
 );
 
 Link.propTypes = {
-    href: React.PropTypes.string.isRequired,
-    onClick: React.PropTypes.func,
-    children: React.PropTypes.any
+    href: PropTypes.string.isRequired,
+    onClick: PropTypes.func,
+    children: PropTypes.any
 };
 Link.displayName = 'Link';
-
-export default Link;

@@ -7,7 +7,7 @@
 // to "React Create App". This only has babel loader to load JavaScript.
 
 const jsLoader = 'babel?cacheDirectory';
-const cssLoader = 'style-loader!css-loader';
+const cssLoader = 'style-loader!css-loader?modules&camelCase=dashes&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]';
 
 module.exports = {
     plugins: [
@@ -19,7 +19,7 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.js/, loader: jsLoader, exclude: /node_modules/ },
-            { test: /\.css$/, loader: cssLoader }
+            { test: /\.css$/, loader: cssLoader, exclude: /node_modules/ }
         ]
     },
 };

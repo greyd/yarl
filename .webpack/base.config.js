@@ -12,7 +12,7 @@ export const options = yargs
     .argv;
 
 export const jsLoader = 'babel?cacheDirectory';
-export const cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader');//'style-loader!css-loader';
+export const cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader?modules&camelCase=dashes&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]');//'style-loader!css-loader';
 
 const baseConfig = {
     entry: undefined,
