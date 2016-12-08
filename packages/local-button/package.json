@@ -1,6 +1,6 @@
 {
   "name": "@POC/local-button",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
   },
