@@ -1,4 +1,4 @@
 'use strict';
 
-export Button from './lib/Button';
-export { Link } from './lib/Link';
+export { Button } from './components/Button';
+export { Link } from './components/Link';

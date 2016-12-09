@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { testLocal } from '../style';
+import { testLocal } from '../styles/style.css';
 
 
 export const Link = ({href, onClick, children}) => (

@@ -19,7 +19,7 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.js/, loader: jsLoader, exclude: /node_modules/ },
-            { test: /\.css$/, loader: cssLoader, exclude: /node_modules/ }
+            { test: /\.css$/, loader: cssLoader }
         ]
     },
 };

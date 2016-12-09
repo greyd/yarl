@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default ({children}) => (
+export const Button = ({children}) => (
     <button className="local-button">{children}</button>
 );

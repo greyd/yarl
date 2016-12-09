@@ -1,3 +1,3 @@
 'use strict';
 
-export { Text } from './lib/Text'
+export { Text } from './components/Text'

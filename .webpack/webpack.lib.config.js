@@ -16,10 +16,10 @@ const getEntry = (folder, extension) => {
 export default {
     ...baseConfig,
 
-    entry: getEntry('./src/lib', '.js'),
+    entry: getEntry('./src/components', '.js'),
 
     output: {
-        path: './dist/lib',
+        path: './dist/components',
         filename: options.optimizeMinimize ? '[name].min.js' : '[name].js',
         libraryTarget: 'umd',
         umdNamedDefine: true

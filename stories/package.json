@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "local-button": "^0.1.9"
+    "@POC/local-button": "^0.3.0"
   }
 }
