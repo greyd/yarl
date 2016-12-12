@@ -1,6 +1,6 @@
 {
   "name": "@POC/icons",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
   },
