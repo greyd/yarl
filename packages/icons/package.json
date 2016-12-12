@@ -1,5 +1,5 @@
 {
-  "name": "@POC/local-text",
+  "name": "@POC/icons",
   "version": "0.3.5",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
@@ -7,9 +7,10 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "npm run build-lib && npm run build-css",
+    "build": "npm run build-lib && npm run build-css && npm run build-img",
     "build-lib": "../../node_modules/.bin/babel ./src/ -d dist/",
     "build-css": "../../node_modules/.bin/copyfiles -u 1 ./src/styles/*.css dist/",
+    "build-img": "../../node_modules/.bin/copyfiles -u 1 ./src/img/* dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

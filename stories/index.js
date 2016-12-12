@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
 import { withKnobs, text, boolean, number } from '@kadira/storybook-addon-knobs';
 
-import { Link } from '../packages/local-button';
+import { Link } from '@POC/local-button';
 //import { Link } from 'local-button/dist/components/Link';
 
 let stories = storiesOf('Link', module);

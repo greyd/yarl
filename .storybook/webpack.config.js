@@ -7,6 +7,7 @@
 // to "React Create App". This only has babel loader to load JavaScript.
 
 const jsLoader = 'babel?cacheDirectory';
+const imgLoader = 'url?name=img/[name]-[hash].svg';
 const cssLoader = 'style-loader!css-loader?modules&camelCase=dashes&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]';
 
 module.exports = {
@@ -18,6 +19,7 @@ module.exports = {
     },
     module: {
         loaders: [
+            { test: /\.svg/, loader: imgLoader },
             { test: /\.js/, loader: jsLoader, exclude: /node_modules/ },
             { test: /\.css$/, loader: cssLoader }
         ]
