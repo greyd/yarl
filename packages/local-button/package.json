@@ -1,6 +1,6 @@
 {
   "name": "@POC/local-button",
-  "version": "0.3.15",
+  "version": "0.3.16",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@POC/icons": "^0.3.15"
+    "@POC/icons": "^0.3.16"
   },
   "peerDependencies": {
     "react": "^15.3.2"
