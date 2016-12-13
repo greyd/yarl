@@ -1,9 +1,6 @@
 {
   "name": "@POC/local-text",
   "version": "0.3.14",
-  "publishConfig": {
-    "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
-  },
   "description": "",
   "main": "./dist/index.js",
   "scripts": {

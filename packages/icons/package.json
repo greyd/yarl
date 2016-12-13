@@ -1,9 +1,6 @@
 {
   "name": "@POC/icons",
   "version": "0.3.15",
-  "publishConfig": {
-    "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
-  },
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
