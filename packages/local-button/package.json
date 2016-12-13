@@ -1,6 +1,6 @@
 {
   "name": "@POC/local-button",
-  "version": "0.3.16",
+  "version": "0.3.17",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "Valerii Pavlov",
   "license": "ISC",
   "dependencies": {
-    "@POC/icons": "^0.3.16"
+    "@POC/icons": "^0.3.17"
   },
   "peerDependencies": {
     "react": "^15.3.2"
