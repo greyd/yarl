@@ -1,6 +1,6 @@
 {
   "name": "@POC/local-button",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "publishConfig": {
     "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
   },
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@POC/icons": "^0.3.9"
+    "@POC/icons": "^0.3.10"
   },
   "peerDependencies": {
     "react": "^15.3.2"
