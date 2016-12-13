@@ -1,8 +1,8 @@
 {
   "name": "@POC/icons",
-  "version": "0.3.13",
+  "version": "0.3.14",
   "publishConfig": {
-    "registry": "https://artifacts.copyright.com/api/npm/rup-npm-local"
+    "registry": "http://localhost:8081/artifactory/api/npm/npm-virtual"
   },
   "description": "",
   "main": "./dist/index.js",
