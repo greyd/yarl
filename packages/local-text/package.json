@@ -4,12 +4,12 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "npm run build-lib && npm run build-css",
-    "build-lib": "../../node_modules/.bin/babel ./src/ -d dist/",
-    "build-css": "../../node_modules/.bin/copyfiles -u 1 ./src/styles/*.css dist/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build-scripts && npm run build-assets",
+    "clean": "rimraf ./dist",
+    "build-scripts": "babel ./src/ -d dist/",
+    "build-assets": "copyfiles -u 1 './src/**/*.!(js|jsx)' dist/"
   },
-  "author": "",
+  "author": "Valerii Pavlov",
   "license": "ISC",
   "peerDependencies": {
     "react": "^15.3.2"
