@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@POC/local-button": "^0.3.0"
+    "@POC/local-button": "^0.3.0",
+    "@POC/icons": "^0.3.0"
   }
 }
