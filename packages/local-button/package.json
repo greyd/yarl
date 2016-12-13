@@ -11,9 +11,6 @@
   },
   "author": "Valerii Pavlov",
   "license": "ISC",
-  "dependencies": {
-    "@POC/icons": "^0.3.17"
-  },
   "peerDependencies": {
     "react": "^15.3.2"
   }
